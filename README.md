@@ -1,6 +1,6 @@
 # 🎧 Music Player
 
-Player de música web com tema escuro, feito com HTML, Tailwind CSS e
+Player de música web, feito com HTML, Tailwind CSS e
 Alpine.js (tudo via CDN, sem build).
 
 🔗 Acesse pelo GitHub Pages: **https://micaelparise.github.io/MusicPlayer/**

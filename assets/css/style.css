@@ -2,6 +2,7 @@
 
 html, body {
   font-family: "Poppins", sans-serif;
+  color-scheme: dark;
 }
 
 /* esconde a barra de rolagem da lista de músicas mantendo a rolagem funcional */
