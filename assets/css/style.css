@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html, body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* esconde a barra de rolagem da lista de músicas mantendo a rolagem funcional */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* evita o "flash" dos blocos x-show antes do Alpine.js inicializar */
+[x-cloak] {
+  display: none !important;
+}

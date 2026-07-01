@@ -1,8 +1,14 @@
+// Para adicionar uma nova música:
+// 1. Coloque o arquivo de áudio (.mp3) dentro da pasta "assets/music".
+// 2. (Opcional) Coloque uma foto (.jpg) dentro da pasta "assets/images".
+// 3. Adicione um objeto abaixo com os dados da música.
+//
 // {
 //   name: "O nome da música",
 //   artist: "O nome do artista da música",
-//   img: "O nome do arquivo .jpg que já deve estar na pasta 'images' precisa estar aqui",
-//   src: "O nome do arquivo .mp3 que já deve estar na pasta 'music' precisa estar aqui"
+//   img: "Nome do arquivo .jpg (sem extensão) dentro de 'assets/images'. Opcional:
+//         se omitido, ou se o arquivo não existir, é usada uma capa padrão.",
+//   src: "Nome do arquivo .mp3 (sem extensão) dentro de 'assets/music'. Obrigatório."
 // }
 
 let allMusic = [
